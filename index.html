@@ -1,22 +1,29 @@
 <!DOCTYPE html>
-<html style="width: 100%; height: 100%">
+<html lang="en">
 <head>
-    <title>larserik</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Image</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    </style>
 </head>
-<body style="width: 100%; height: 100%">
-    <table witdh="100%" height="100%">
-        <tr>
-            <td align="center" valign="middle">
-                <h1>larserik</h1>
-
-<img src="https://avatars.githubusercontent.com/u/15105?s=400&u=b57a97150ab1feeb39ec42af3b2926dc37c9fa5c&v=4" 
-     alt="Profile Image" 
-     width="200" height="200" 
-     style="border-radius: 50%; object-fit: cover;">
-                
-            </td>
-        </tr>
-    </table>
-
+<body>
+    <div>larserik</div>
+    <img src="https://avatars.githubusercontent.com/u/15105?s=400&u=b57a97150ab1feeb39ec42af3b2926dc37c9fa5c&v=4" alt="Profile Image">
 </body>
 </html>
